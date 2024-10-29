@@ -33,16 +33,10 @@ Copy code
 npm install
 Set up environment variables: Create a .env file in the root directory and add API keys for services like Google Maps, OpenWeatherMap, and booking platforms:
 
-env
-Copy code
-REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-REACT_APP_WEATHER_API_KEY=your_weather_api_key
-Start the server:
-
 bash
 Copy code
-npm run start
-Access the application: Open http://localhost:3000 in your browser.
+npm run dev
+Access the application: Open http://localhost:5173 in your browser.
 
 Usage
 Sign up or Log in to access all features.
